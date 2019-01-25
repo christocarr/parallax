@@ -16,7 +16,8 @@ body {
   height: 100%;
 }
 
-.fixed-section {
+/*-----firstpage start------*/
+.fixed-section .firstpage{
   position: fixed;
   top: 0;
   right: 0;
@@ -26,7 +27,7 @@ body {
   z-index: 2;
 } 
 
-.heading {
+.firstpage .heading {
   font-size: 2em;
   position: absolute;
   top: 45%;
@@ -71,4 +72,36 @@ body {
   width: 100vw;
   height: 60vh;
   transform: skewY(-20deg);
+}
+/*-----firstpage end------*/
+
+/*-----secondpage start------*/
+
+.fixed-section .secondpage{
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: mintcream;
+  z-index: 2;
+} 
+
+.secondpage .heading {
+  font-size: 2em;
+  position: absolute;
+  top: 45%;
+  left: 33%;
+}
+
+.secondpage h1 span {
+  display: inline-block;
+}
+
+.image {
+  position: absolute;
+  width: 40vw;
+  height: 40vw;
+  bottom: 17vw;
+  transform: scale(0);
 }
