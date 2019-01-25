@@ -35,7 +35,7 @@ body {
 }
 
 .background,
-.middleground,
+.midground,
 .foreground {
   position: absolute;
   top: 0;
@@ -54,7 +54,7 @@ body {
   transform: skewY(-2deg);
 }
 
-.mg-block{
+.mg-block {
   position: absolute;
   bottom: -55vh;
   left: -20vw;
